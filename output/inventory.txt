@@ -1,0 +1,50 @@
+sh: can't access tty; job control turned off
+
+
+BusyBox v1.13.4 (2010-07-15 10:39:07 JST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+/ # Linux (none) 2.6.29.6-rt24-alp_nl #2 SMP PREEMPT RT Wed Sep 26 17:52:57 JST 2012 armv6l unknown
+/ # sh: id: not found
+/ # Linux version 2.6.29.6-rt24-alp_nl (0000126241@build-f-065) (gcc version 4.3.3 (20100621 (Sony CE Linux 6.0.0.4)) ) #2 SMP PREEMPT RT Wed Sep 26 17:52:57 JST 2012
+/ # cat: can't open '/proc/mtd': No such file or directory
+/ # major minor  #blocks  name
+
+   7        0         12 loop0
+ 252        0     261888 nflasha0
+ 252        1       4096 nflasha0p1
+ 252        2       3072 nflasha0p2
+ 252        3      10240 nflasha0p3
+ 252        4       6144 nflasha0p4
+ 252        5      40960 nflasha0p5
+ 252        6       5120 nflasha0p6
+ 252        7      35840 nflasha0p7
+ 252        8      46080 nflasha0p8
+ 252       10       2816 nflasha0p10
+ 252       12       1024 nflasha0p12
+/ # rootfs / rootfs rw 0 0
+/dev/root / cramfs ro,noatime 0 0
+proc /proc proc rw 0 0
+none /sys sysfs rw 0 0
+tmpfs /ramdsk tmpfs rw 0 0
+/dev/loop0 /ramdsk/updater/bodyfs cramfs ro,noatime 0 0
+/dev/nflasha2 /setting vfat rw,sync,noatime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=ascii,shortname=mixed,posix_attr,avoid_dlink 0 0
+/ # sh: head: not found
+/ # sh: head: not found
+/ # sh: head: not found
+/ # Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6048      6048         0 100% /
+/dev/loop0                  20        20         0 100% /ramdsk/updater/bodyfs
+/dev/nflasha2             3040      1696      1344  56% /setting
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6048      6048         0 100% /
+/dev/loop0                  20        20         0 100% /ramdsk/updater/bodyfs
+/dev/nflasha2             3040      1696      1344  56% /setting
+rootfs on / type rootfs (rw)
+/dev/root on / type cramfs (ro,noatime)
+proc on /proc type proc (rw)
+none on /sys type sysfs (rw)
+tmpfs on /ramdsk type tmpfs (rw)
+/dev/loop0 on /ramdsk/updater/bodyfs type cramfs (ro,noatime)
+/dev/nflasha2 on /setting type vfat (rw,sync,noatime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=ascii,shortname=mixed,posix_attr,avoid_dlink)
+/ # 

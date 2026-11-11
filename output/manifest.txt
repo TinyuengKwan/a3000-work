@@ -1,0 +1,15 @@
+# ILCE-3000 (A3000) NAND firmware dump manifest
+# date: 2026-11-11
+# whole device: nflasha0 = 261888 KiB (256 MiB)
+
+nflasha-whole.img   268173312  819d029ec9cb3b3b4ca3226b5da8b0a4
+nflasha0p1.img        4194304  888c02017c4dd1f2c55f339d9c39afa9
+nflasha0p2.img        3145728  8d0e5875040329992fa71892f5402899
+nflasha0p3.img       10485760  693045f30e653e462eacfa338a1488b7
+nflasha0p4.img        6291456  0190af17368e1d44e417cd45d1c28edf
+nflasha0p5.img       41943040  2c176e3d7c3eb29e47396320efdc3cf3
+nflasha0p6.img        5242880  c047cdb95b0461079707e32bed8e5b3f
+nflasha0p7.img       36700160  c68410b0b84f275707d4bb5e0fb05a72
+nflasha0p8.img       47185920  31a20b227bdd974b61b64a99ed2dd5b3
+nflasha0p10.img       2883584  b9923dd9bee8ef74091aee059c5cdd83
+nflasha0p12.img       1048576  b139278384982872f5b4a5d912f28205

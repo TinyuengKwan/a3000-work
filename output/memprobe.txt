@@ -1,0 +1,71 @@
+sh: can't access tty; job control turned off
+
+
+BusyBox v1.13.4 (2010-07-15 10:39:07 JST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+/ # MemTotal:          39416 kB
+MemFree:           23224 kB
+Buffers:              20 kB
+Cached:             4668 kB
+SwapCached:            0 kB
+Active:             3824 kB
+Inactive:           3924 kB
+Active(anon):       3080 kB
+Inactive(anon):        0 kB
+Active(file):        744 kB
+Inactive(file):     3924 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:          3116 kB
+Mapped:             1604 kB
+Slab:               2172 kB
+SReclaimable:        244 kB
+SUnreclaim:         1928 kB
+PageTables:          148 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:       19708 kB
+Committed_AS:      40580 kB
+VmallocTotal:     229376 kB
+VmallocUsed:         504 kB
+VmallocChunk:     227580 kB
+/ # Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6048      6048         0 100% /
+/dev/loop0                  20        20         0 100% /ramdsk/updater/bodyfs
+/dev/nflasha2             3040      1696      1344  56% /setting
+/ # rootfs / rootfs rw 0 0
+/dev/root / cramfs ro,noatime 0 0
+proc /proc proc rw 0 0
+none /sys sysfs rw 0 0
+tmpfs /ramdsk tmpfs rw 0 0
+/dev/loop0 /ramdsk/updater/bodyfs cramfs ro,noatime 0 0
+/dev/nflasha2 /setting vfat rw,sync,noatime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=ascii,shortname=mixed,posix_attr,avoid_dlink 0 0
+/ # ls: /dev/shm: No such file or directory
+ls: /run: No such file or directory
+lrwxrwxrwx    1 55957    232             6 Jan  1  1970 /tmp -> ramdsk
+lrwxrwxrwx    1 55957    232             6 Jan  1  1970 /var -> ramdsk
+
+/ramdsk:
+drwxr-xr-x    3 0        0               0 Jan  1 00:00 .
+drwxrwxr-x    1 55957    232           292 Jan  1  1970 ..
+-rw-rw-rw-    1 0        0               0 Jan  1 00:00 UFP
+drwxr-xr-x    4 0        0               0 Jan  1 00:00 updater
+-rw-rw-rw-    1 0        0            4350 Jan  1 00:00 updater_log.txt
+/ # Filesystem           1K-blocks      Used Available Use% Mounted on
+tmpfs                        0         0         0   0% /ramdsk
+tmpfs                        0         0         0   0% /ramdsk
+tmpfs                        0         0         0   0% /ramdsk
+/ # rootfs on / type rootfs (rw)
+/dev/root on / type cramfs (ro,noatime)
+proc on /proc type proc (rw)
+none on /sys type sysfs (rw)
+tmpfs on /ramdsk type tmpfs (rw)
+/dev/loop0 on /ramdsk/updater/bodyfs type cramfs (ro,noatime)
+/dev/nflasha2 on /setting type vfat (rw,sync,noatime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=ascii,shortname=mixed,posix_attr,avoid_dlink)
+/ # 

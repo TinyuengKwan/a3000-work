@@ -1,0 +1,15 @@
+# Firmware images (private / large) — not in the repo.
+# The extracted NAND images live locally in ../firmware-archive/
+# and are published as GitHub Release attachments instead:
+#   ilce3000-firmware-whole.tar.xz
+#   ilce3000-firmware-partitions.tar.xz
+# See SHA256SUMS.txt (in the Release) for integrity.
+
+*.img
+output/*.img
+firmware-archive/
+release/*.tar.xz
+
+# Python caches
+__pycache__/
+*.pyc

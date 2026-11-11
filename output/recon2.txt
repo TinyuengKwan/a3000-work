@@ -1,0 +1,248 @@
+sh: can't access tty; job control turned off
+
+
+BusyBox v1.13.4 (2010-07-15 10:39:07 JST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+/ # /bin:
+ash
+busybox
+cat
+chgrp
+chmod
+chown
+cp
+cpio
+cut
+date
+dd
+df
+dmesg
+echo
+egrep
+false
+fgrep
+grep
+gunzip
+gzip
+kill
+ln
+login
+ls
+md5sum
+mkdir
+mkfifo
+mknod
+mktemp
+mount
+mv
+pidof
+ping
+ping6
+ps
+pwd
+rm
+rmdir
+sed
+sh
+sleep
+sync
+tar
+tee
+touch
+true
+umount
+uname
+usleep
+wc
+xargs
+zcat
+
+/sbin:
+dosfsck
+freeramdisk
+getty
+halt
+ifconfig
+init
+insmod
+lsmod
+mkdosfs
+pivot_root
+poweroff
+reboot
+rmmod
+swapoff
+swapon
+
+/usr/bin:
+CompInfosector.elf
+sen.elf
+uc_cacmd.elf
+ud_datcnv.elf
+ud_get_lsi.elf
+ud_im.elf
+ud_lsblk.elf
+ud_port_sw.elf
+ud_reboot.elf
+ud_send_lsi.elf
+ud_timeout_poweroff.elf
+ulogio.elf
+updaterfileinput.elf
+updaterseninput.elf
+updaterufp.elf
+usb_insmod.sh
+usb_swic.elf
+vmstat
+/ # ---
+/ # crwxrwxrwx    1 0        0        252,   0 Jan  1  1970 /dev/cnflasha0
+crwxrwxrwx    1 0        0        252,   1 Jan  1  1970 /dev/cnflasha1
+crwxrwxrwx    1 0        0        252,  10 Jan  1  1970 /dev/cnflasha10
+crwxrwxrwx    1 0        0        252,  11 Jan  1  1970 /dev/cnflasha11
+crwxrwxrwx    1 0        0        252,  12 Jan  1  1970 /dev/cnflasha12
+crwxrwxrwx    1 0        0        252,  13 Jan  1  1970 /dev/cnflasha13
+crwxrwxrwx    1 0        0        252,  14 Jan  1  1970 /dev/cnflasha14
+crwxrwxrwx    1 0        0        252,  15 Jan  1  1970 /dev/cnflasha15
+crwxrwxrwx    1 0        0        252,  16 Jan  1  1970 /dev/cnflasha16
+crwxrwxrwx    1 0        0        252,  17 Jan  1  1970 /dev/cnflasha17
+crwxrwxrwx    1 0        0        252,  18 Jan  1  1970 /dev/cnflasha18
+crwxrwxrwx    1 0        0        252,  19 Jan  1  1970 /dev/cnflasha19
+crwxrwxrwx    1 0        0        252,   2 Jan  1  1970 /dev/cnflasha2
+crwxrwxrwx    1 0        0        252,  20 Jan  1  1970 /dev/cnflasha20
+crwxrwxrwx    1 0        0        252,  21 Jan  1  1970 /dev/cnflasha21
+crwxrwxrwx    1 0        0        252,  22 Jan  1  1970 /dev/cnflasha22
+crwxrwxrwx    1 0        0        252,  23 Jan  1  1970 /dev/cnflasha23
+crwxrwxrwx    1 0        0        252,  24 Jan  1  1970 /dev/cnflasha24
+crwxrwxrwx    1 0        0        252,  25 Jan  1  1970 /dev/cnflasha25
+crwxrwxrwx    1 0        0        252,  26 Jan  1  1970 /dev/cnflasha26
+crwxrwxrwx    1 0        0        252,  27 Jan  1  1970 /dev/cnflasha27
+crwxrwxrwx    1 0        0        252,  28 Jan  1  1970 /dev/cnflasha28
+crwxrwxrwx    1 0        0        252,  29 Jan  1  1970 /dev/cnflasha29
+crwxrwxrwx    1 0        0        252,   3 Jan  1  1970 /dev/cnflasha3
+crwxrwxrwx    1 0        0        252,  30 Jan  1  1970 /dev/cnflasha30
+crwxrwxrwx    1 0        0        252,  31 Jan  1  1970 /dev/cnflasha31
+crwxrwxrwx    1 0        0        252,   4 Jan  1  1970 /dev/cnflasha4
+crwxrwxrwx    1 0        0        252,   5 Jan  1  1970 /dev/cnflasha5
+crwxrwxrwx    1 0        0        252,   6 Jan  1  1970 /dev/cnflasha6
+crwxrwxrwx    1 0        0        252,   7 Jan  1  1970 /dev/cnflasha7
+crwxrwxrwx    1 0        0        252,   8 Jan  1  1970 /dev/cnflasha8
+crwxrwxrwx    1 0        0        252,   9 Jan  1  1970 /dev/cnflasha9
+brwxrwxrwx    1 0        0        250,  10 Jan  1  1970 /dev/mmca
+crwxrwxrwx    1 0        0        250,   0 Jan  1  1970 /dev/mmca-char
+brwxrwxrwx    1 0        0        250,  11 Jan  1  1970 /dev/mmca1
+brwxrwxrwx    1 0        0        250,  12 Jan  1  1970 /dev/mmca2
+brwxrwxrwx    1 0        0        250,  13 Jan  1  1970 /dev/mmca3
+brwxrwxrwx    1 0        0        250,  14 Jan  1  1970 /dev/mmca4
+brwxrwxrwx    1 0        0        250,  15 Jan  1  1970 /dev/mmcaa
+brwxrwxrwx    1 0        0        250,  16 Jan  1  1970 /dev/mmcaa1
+brwxrwxrwx    1 0        0        250,  17 Jan  1  1970 /dev/mmcab
+brwxrwxrwx    1 0        0        250,  18 Jan  1  1970 /dev/mmcab1
+brwxrwxrwx    1 0        0        250,  19 Jan  1  1970 /dev/mmcac
+brwxrwxrwx    1 0        0        250,  20 Jan  1  1970 /dev/mmcac1
+brwxrwxrwx    1 0        0        250,  21 Jan  1  1970 /dev/mmcad
+brwxrwxrwx    1 0        0        250,  22 Jan  1  1970 /dev/mmcad1
+brwxrwxrwx    1 0        0        250,  30 Jan  1  1970 /dev/mmcb
+crwxrwxrwx    1 0        0        250,   1 Jan  1  1970 /dev/mmcb-char
+brwxrwxrwx    1 0        0        250,  31 Jan  1  1970 /dev/mmcb1
+brwxrwxrwx    1 0        0        250,  32 Jan  1  1970 /dev/mmcb2
+brwxrwxrwx    1 0        0        250,  33 Jan  1  1970 /dev/mmcb3
+brwxrwxrwx    1 0        0        250,  34 Jan  1  1970 /dev/mmcb4
+brwxrwxrwx    1 0        0        250,  35 Jan  1  1970 /dev/mmcba
+brwxrwxrwx    1 0        0        250,  36 Jan  1  1970 /dev/mmcba1
+brwxrwxrwx    1 0        0        250,  37 Jan  1  1970 /dev/mmcbb
+brwxrwxrwx    1 0        0        250,  38 Jan  1  1970 /dev/mmcbb1
+brwxrwxrwx    1 0        0        250,  39 Jan  1  1970 /dev/mmcbc
+brwxrwxrwx    1 0        0        250,  40 Jan  1  1970 /dev/mmcbc1
+brwxrwxrwx    1 0        0        250,  41 Jan  1  1970 /dev/mmcbd
+brwxrwxrwx    1 0        0        250,  42 Jan  1  1970 /dev/mmcbd1
+brwxrwxrwx    1 0        0        250,  50 Jan  1  1970 /dev/mmcc
+crwxrwxrwx    1 0        0        250,   2 Jan  1  1970 /dev/mmcc-char
+brwxrwxrwx    1 0        0        250,  51 Jan  1  1970 /dev/mmcc1
+brwxrwxrwx    1 0        0        250,  52 Jan  1  1970 /dev/mmcc2
+brwxrwxrwx    1 0        0        250,  53 Jan  1  1970 /dev/mmcc3
+brwxrwxrwx    1 0        0        250,  54 Jan  1  1970 /dev/mmcc4
+brwxrwxrwx    1 0        0        250,  55 Jan  1  1970 /dev/mmcca
+brwxrwxrwx    1 0        0        250,  56 Jan  1  1970 /dev/mmcca1
+brwxrwxrwx    1 0        0        250,  57 Jan  1  1970 /dev/mmccb
+brwxrwxrwx    1 0        0        250,  58 Jan  1  1970 /dev/mmccb1
+brwxrwxrwx    1 0        0        250,  59 Jan  1  1970 /dev/mmccc
+brwxrwxrwx    1 0        0        250,  60 Jan  1  1970 /dev/mmccc1
+brwxrwxrwx    1 0        0        250,  61 Jan  1  1970 /dev/mmccd
+brwxrwxrwx    1 0        0        250,  62 Jan  1  1970 /dev/mmccd1
+brwxrwxrwx    1 0        0        252,   0 Jan  1  1970 /dev/nflasha
+brwxrwxrwx    1 0        0        252,   1 Jan  1  1970 /dev/nflasha1
+brwxrwxrwx    1 0        0        252,  10 Jan  1  1970 /dev/nflasha10
+brwxrwxrwx    1 0        0        252,  11 Jan  1  1970 /dev/nflasha11
+brwxrwxrwx    1 0        0        252,  12 Jan  1  1970 /dev/nflasha12
+brwxrwxrwx    1 0        0        252,  13 Jan  1  1970 /dev/nflasha13
+brwxrwxrwx    1 0        0        252,  14 Jan  1  1970 /dev/nflasha14
+brwxrwxrwx    1 0        0        252,  15 Jan  1  1970 /dev/nflasha15
+brwxrwxrwx    1 0        0        252,  16 Jan  1  1970 /dev/nflasha16
+brwxrwxrwx    1 0        0        252,  17 Jan  1  1970 /dev/nflasha17
+brwxrwxrwx    1 0        0        252,  18 Jan  1  1970 /dev/nflasha18
+brwxrwxrwx    1 0        0        252,  19 Jan  1  1970 /dev/nflasha19
+brwxrwxrwx    1 0        0        252,   2 Jan  1  1970 /dev/nflasha2
+brwxrwxrwx    1 0        0        252,  20 Jan  1  1970 /dev/nflasha20
+brwxrwxrwx    1 0        0        252,  21 Jan  1  1970 /dev/nflasha21
+brwxrwxrwx    1 0        0        252,  22 Jan  1  1970 /dev/nflasha22
+brwxrwxrwx    1 0        0        252,  23 Jan  1  1970 /dev/nflasha23
+brwxrwxrwx    1 0        0        252,  24 Jan  1  1970 /dev/nflasha24
+brwxrwxrwx    1 0        0        252,  25 Jan  1  1970 /dev/nflasha25
+brwxrwxrwx    1 0        0        252,  26 Jan  1  1970 /dev/nflasha26
+brwxrwxrwx    1 0        0        252,  27 Jan  1  1970 /dev/nflasha27
+brwxrwxrwx    1 0        0        252,  28 Jan  1  1970 /dev/nflasha28
+brwxrwxrwx    1 0        0        252,  29 Jan  1  1970 /dev/nflasha29
+brwxrwxrwx    1 0        0        252,   3 Jan  1  1970 /dev/nflasha3
+brwxrwxrwx    1 0        0        252,  30 Jan  1  1970 /dev/nflasha30
+brwxrwxrwx    1 0        0        252,  31 Jan  1  1970 /dev/nflasha31
+brwxrwxrwx    1 0        0        252,   4 Jan  1  1970 /dev/nflasha4
+brwxrwxrwx    1 0        0        252,   5 Jan  1  1970 /dev/nflasha5
+brwxrwxrwx    1 0        0        252,   6 Jan  1  1970 /dev/nflasha6
+brwxrwxrwx    1 0        0        252,   7 Jan  1  1970 /dev/nflasha7
+brwxrwxrwx    1 0        0        252,   8 Jan  1  1970 /dev/nflasha8
+brwxrwxrwx    1 0        0        252,   9 Jan  1  1970 /dev/nflasha9
+brw-r--r--    1 0        0          8,   0 Jan  1  1970 /dev/sda
+brw-r--r--    1 0        0          8,  16 Jan  1  1970 /dev/sdb
+brw-r--r--    1 0        0          8,  32 Jan  1  1970 /dev/sdc
+brw-r--r--    1 0        0          8,  48 Jan  1  1970 /dev/sdd
+/ # major minor  #blocks  name
+
+   7        0         12 loop0
+ 252        0     261888 nflasha0
+ 252        1       4096 nflasha0p1
+ 252        2       3072 nflasha0p2
+ 252        3      10240 nflasha0p3
+ 252        4       6144 nflasha0p4
+ 252        5      40960 nflasha0p5
+ 252        6       5120 nflasha0p6
+ 252        7      35840 nflasha0p7
+ 252        8      46080 nflasha0p8
+ 252       10       2816 nflasha0p10
+ 252       12       1024 nflasha0p12
+/ # /mnt:
+
+/setting:
+drwxrwxrwx    6 0        0           16384 Jan  1  1970 .
+drwxrwxr-x    1 55957    232           292 Jan  1  1970 ..
+-rw-r--r--    1 0        0            4096 Jan  1  1980 .etools
+-r--r--r--    1 0        0              88 Jan  1  1980 .hasp
+-rwxrwxrwx    1 0        0          705506 Jan  1  1980 Backup.bak
+-rw-rw-rw-    1 0        0          705506 Jan  1  1980 Backup.bin
+-r--r--r--    1 0        0           79214 Jan  1 00:00 DmmConfig.bin
+drwxrwxrwx    2 0        0           16384 Jan  1 00:00 appfw_infra
+-r--r--r--    1 0        0           51200 Jan  1 00:00 facedmy.bin
+drwxrwxrwx    2 0        0           16384 Jan  1  1980 gps
+-rw-rw-rw-    1 0        0            3220 Jan  1 00:00 kemco.txt
+drwxrwxrwx    2 0        0           16384 Jan  1  1980 mode
+-rw-rw-rw-    1 0        0            2868 Jan  1 00:00 ulogio.bin
+drwxr-xr-x    2 0        0           16384 Jan  1 00:00 updater
+/ # rootfs / rootfs rw 0 0
+/dev/root / cramfs ro,noatime 0 0
+proc /proc proc rw 0 0
+none /sys sysfs rw 0 0
+tmpfs /ramdsk tmpfs rw 0 0
+/dev/loop0 /ramdsk/updater/bodyfs cramfs ro,noatime 0 0
+/dev/nflasha2 /setting vfat rw,sync,noatime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=ascii,shortname=mixed,posix_attr,avoid_dlink 0 0
+/ # --- busybox applets ---
+sh: tail: not found
+/ # 
